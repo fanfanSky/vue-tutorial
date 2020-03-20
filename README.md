@@ -14,12 +14,9 @@
 
 > PS：本文node v6.2.2 npm v3.9.5 vue v2.1.0 vue-router v2.0.3 vuex v2.0.0 
 
-> 若你要看vue1.0构建单页应用最佳实战 请 前往 master 分支  [vue1.0构建单页应用最佳实战](https://github.com/MeCKodo/vue-tutorial/tree/master)
 
 最终我们将会构建出一个小demo，不废话，直接上图。
 
-
-![](http://7xim8z.com1.z0.glb.clouddn.com/vue2spa-1.png)
 
 
 ## 安装
@@ -393,9 +390,9 @@ Vue.use(Vuex);
 const state = {
   totalTime: 0,
   list: [{
-    name : '二哲',
+    name : 'Jiang.Sky 帆',
     avatar : 'https://sfault-avatar.b0.upaiyun.com/147/223/147223148-573297d0913c5_huge256',
-    date : '2016-12-25',
+    date : '2020-02-25',
     totalTime : '6',
     comment : '12月25日晚上，陪女朋友一起过圣诞节需要6个小时'
   }]
@@ -498,7 +495,7 @@ var app = new Vue({
         methods:{
           save() {
             const plan = {
-              name : '二哲',
+              name : 'Jiang.Sky 帆',
               image : 'https://sfault-avatar.b0.upaiyun.com/888/223/888223038-5646dbc28d530_huge256',
               date : this.date,
               totalTime : this.totalTime,
@@ -584,7 +581,7 @@ export default {
     const avatar = 'https://sfault-avatar.b0.upaiyun.com/147/223/147223148-573297d0913c5_huge256';
     
     state.list.push(
-      Object.assign({ name: '二哲', avatar: avatar }, plan)
+      Object.assign({ name: 'Jiang.Sky 帆', avatar: avatar }, plan)
     )
   },
   // 删除某计划
@@ -695,11 +692,14 @@ var app = new Vue({
 
 ---
 
-个人网站 ：http://www.meckodo.com
+个人博客 ：https://www.cnblogs.com/btsn/
 
-github地址：https://github.com/MeCKodo/vue-tutorial
+github地址：https://github.com/fanfanSky/vue-tutorial
 
 > Have a nice day
+
+
+
 
 
 
